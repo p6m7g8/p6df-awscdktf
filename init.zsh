@@ -1,52 +1,52 @@
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::version()
+# Function: p6df::modules::awscdk8s::version()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::version() { echo "0.0.1" }
+p6df::modules::awscdk8s::version() { echo "0.0.1" }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::deps()
+# Function: p6df::modules::awscdk8s::deps()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::deps() { ModuleDeps=() }
+p6df::modules::awscdk8s::deps() { ModuleDeps=() }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::external::brew()
+# Function: p6df::modules::awscdk8s::external::brew()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::external::brew() { }
+p6df::modules::awscdk8s::external::brew() { }
 
-p6df::modules::awscdktf::langs() {
+p6df::modules::awscdk8s::langs() {
 
-  npm install -g cdktf-cli@next
+  npm install -g cdk8s-cli@next
 }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::home::symlink()
+# Function: p6df::modules::awscdk8s::home::symlink()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::home::symlink() { }
+p6df::modules::awscdk8s::home::symlink() { }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::init()
+# Function: p6df::modules::awscdk8s::init()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::init() {
+p6df::modules::awscdk8s::init() {
 
   true
 }
