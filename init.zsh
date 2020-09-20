@@ -25,6 +25,13 @@ p6df::modules::awscdk8s::deps() { ModuleDeps=() }
 ######################################################################
 p6df::modules::awscdk8s::external::brew() { }
 
+######################################################################
+#<
+#
+# Function: p6df::modules::awscdk8s::langs()
+#
+#>
+######################################################################
 p6df::modules::awscdk8s::langs() {
 
   npm install -g cdk8s-cli@next
