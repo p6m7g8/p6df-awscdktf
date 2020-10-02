@@ -14,7 +14,7 @@ p6df::modules::awscdk8s::version() { echo "0.0.1" }
 #
 #>
 ######################################################################
-p6df::modules::awscdk8s::deps() { ModuleDeps=() }
+p6df::modules::awscdk8s::deps() { ModuleDeps=(awslabs/cdk8s) }
 
 ######################################################################
 #<
