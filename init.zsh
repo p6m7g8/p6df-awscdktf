@@ -14,7 +14,13 @@ p6df::modules::awscdk8s::version() { echo "0.0.1" }
 #
 #>
 ######################################################################
-p6df::modules::awscdk8s::deps() { ModuleDeps=(awslabs/cdk8s) }
+p6df::modules::awscdk8s::deps() {
+  ModuleDeps=(
+    p6m7g8/p6df-awscdk
+    p6m7g8/p6df-kubernetes
+    awslabs/cdk8s
+  )
+}
 
 ######################################################################
 #<
