@@ -1,59 +1,65 @@
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdk8s::version()
+# Function: p6df::modules::awscdktf::version()
 #
 #>
 ######################################################################
-p6df::modules::awscdk8s::version() { echo "0.0.1" }
+p6df::modules::awscdktf::version() { echo "0.0.1" }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdk8s::deps()
+# Function: p6df::modules::awscdktf::deps()
 #
 #>
 ######################################################################
-p6df::modules::awscdk8s::deps() { ModuleDeps=(awslabs/cdk8s) }
+p6df::modules::awscdktf::deps() {
 
-######################################################################
-#<
-#
-# Function: p6df::modules::awscdk8s::external::brew()
-#
-#>
-######################################################################
-p6df::modules::awscdk8s::external::brew() { }
-
-######################################################################
-#<
-#
-# Function: p6df::modules::awscdk8s::langs()
-#
-#>
-######################################################################
-p6df::modules::awscdk8s::langs() {
-
-  npm install -g cdk8s-cli@next
+  ModuleDeps=(
+    p6m7g8/p6df-awscdk
+    hashicorp/terraform-cdk
+  )
 }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdk8s::home::symlink()
+# Function: p6df::modules::awscdktf::external::brew()
 #
 #>
 ######################################################################
-p6df::modules::awscdk8s::home::symlink() { }
+p6df::modules::awscdktf::external::brew() { }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdk8s::init()
+# Function: p6df::modules::awscdktf::langs()
 #
 #>
 ######################################################################
-p6df::modules::awscdk8s::init() {
+p6df::modules::awscdktf::langs() {
+
+  npm install -g cdktf-cli@next
+}
+
+######################################################################
+#<
+#
+# Function: p6df::modules::awscdktf::home::symlink()
+#
+#>
+######################################################################
+p6df::modules::awscdktf::home::symlink() { }
+
+######################################################################
+#<
+#
+# Function: p6df::modules::awscdktf::init()
+#
+#>
+######################################################################
+p6df::modules::awscdktf::init() {
 
   true
 }
