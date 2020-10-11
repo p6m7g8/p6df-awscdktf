@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/p6m7g8/p6df-awscdktf/compare/v1.0.1...v2.0.0) (2020-10-11)
+
+
+### Features
+
+* **deps:** depend on awslabs/cdk8s ([#3](https://github.com/p6m7g8/p6df-awscdktf/issues/3)) ([449844b](https://github.com/p6m7g8/p6df-awscdktf/commit/449844b028359153d55468ca9e1ab729b8dafc0c))
+* **deps:** fixes depends ([#5](https://github.com/p6m7g8/p6df-awscdktf/issues/5)) ([3318e3e](https://github.com/p6m7g8/p6df-awscdktf/commit/3318e3e7564607728ea075d347a2614fe7d74c98))
+
 ### 1.0.1 (2020-09-20)
 
 
