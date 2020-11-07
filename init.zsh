@@ -11,6 +11,7 @@ p6df::modules::awscdk8s::deps() {
     p6m7g8/p6df-awscdk
     p6m7g8/p6df-kubernetes
     awslabs/cdk8s
+    hashicorp/terraform-cdk
   )
 }
 
