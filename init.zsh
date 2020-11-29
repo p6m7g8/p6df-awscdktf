@@ -9,7 +9,7 @@
 p6df::modules::awscdktf::deps() {
   ModuleDeps=(
     p6m7g8/p6df-awscdk
-    p6m7g8/p6df-kubernetes
+    p6m7g8/p6df-terraform
     hashicorp/terraform-cdk
   )
 }
