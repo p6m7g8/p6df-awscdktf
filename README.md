@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-awscdktf:
+
+#### p6df-awscdktf/init.zsh:
 
 - p6df::modules::awscdktf::deps()
 - p6df::modules::awscdktf::external::brew()
