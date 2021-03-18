@@ -50,8 +50,6 @@
 - p6df::modules::cfktf::init()
 - p6df::modules::cfktf::langs()
 
-
-
 ## Author
 
 Philip M . Gollucci <pgollucci@p6m7g8.com>
