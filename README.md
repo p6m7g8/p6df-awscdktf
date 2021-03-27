@@ -45,10 +45,9 @@
 #### p6df-cdktf/init.zsh:
 
 - p6df::modules::cfktf::deps()
-- p6df::modules::cfktf::external::brew()
-- p6df::modules::cfktf::home::symlink()
-- p6df::modules::cfktf::init()
 - p6df::modules::cfktf::langs()
+
+
 
 ## Author
 
