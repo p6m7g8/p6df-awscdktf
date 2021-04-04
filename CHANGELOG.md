@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/p6m7g8/p6df-cdktf/compare/v1.1.0...v2.0.1) (2021-04-04)
+
+
+* **api:** rename awscdktf -> cdktf ([#22](https://github.com/p6m7g8/p6df-cdktf/issues/22)) ([81c0239](https://github.com/p6m7g8/p6df-cdktf/commit/81c02398a0cc724b52089f31f71d997d23d577e6))
+* **link:** remove rendundant symlinks; echo for now ([#23](https://github.com/p6m7g8/p6df-cdktf/issues/23)) ([60b67e7](https://github.com/p6m7g8/p6df-cdktf/commit/60b67e7163954874ae04020c84753b12ec460f71))
+* **README:** updates generator ([#21](https://github.com/p6m7g8/p6df-cdktf/issues/21)) ([6edb77e](https://github.com/p6m7g8/p6df-cdktf/commit/6edb77ea1e72c819b722bf2fe26f81e2725f4625))
+* Coc -> .github ([1671cf1](https://github.com/p6m7g8/p6df-cdktf/commit/1671cf17620578ea0e8954002d4ced68b4a2fbee))
+
 ## 1.1.0 (2020-12-06)
 
 
